@@ -24,7 +24,7 @@ where e.emp_num = s.emp_num
 			(select sh.emp_num,min(sh.sal_from)
 		 	from salary_history sh	
 		 	group by sh.emp_num
-        	);
+        	); 
 	
 	
 	
